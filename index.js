@@ -1,7 +1,7 @@
 const fs = require("fs")
 
-const example = fs.readFileSync('welcome.txt') //sync
-console.log(example.toString());
+// const example = fs.readFileSync('welcome.txt') //sync
+// console.log(example.toString());
 
 fs.readFile('welcome.txt', function (error, value) { //async
     if (error) {
